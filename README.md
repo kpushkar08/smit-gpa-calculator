@@ -27,4 +27,5 @@ This tool allows students to select their engineering branch and semester, autom
 6. Your Semester GPA will update automatically at the bottom!
 
 ## 🤝 Contributing
+
 Feel free to fork this project, submit pull requests, or open an issue if you notice any curriculum updates or bugs.
