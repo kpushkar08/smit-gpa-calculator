@@ -12,6 +12,7 @@ This tool allows students to select their engineering branch and semester, autom
 - **Modern UI:** Responsive, dark-mode design built with Tailwind CSS.
 
 ## 🛠️ Tech Stack 
+
 - **HTML5**
 - **Tailwind CSS** (via CDN for styling)
 - **Vanilla JavaScript** (Logic & DOM Manipulation)
