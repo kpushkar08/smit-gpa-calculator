@@ -18,6 +18,7 @@ This tool allows students to select their engineering branch and semester, autom
 - **Vanilla JavaScript** (Logic & DOM Manipulation)
 
 ## 💻 How to Use
+
 1. Clone this repository or download the files.
 2. Open `index.html` in any modern web browser.
 3. Select your **Branch**.
