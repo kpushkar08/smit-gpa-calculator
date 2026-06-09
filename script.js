@@ -135,21 +135,37 @@ function loadSubjects() {
         subjects = (branchData[branch] && branchData[branch][sem]) || [];
     }
 
-    subjects.forEach(s => {
-        const row = document.createElement('div');
-        row.className = 'flex items-center justify-between p-4 rounded-xl border border-slate-800/60 bg-slate-800/10 hover:bg-slate-800/30 transition-all';
-        row.innerHTML = `
-            <div class="flex-1 pr-4">
-                <div class="text-xs font-bold text-slate-200">${s.n}</div>
-                <div class="text-[9px] font-bold text-slate-600 uppercase mt-0.5 tracking-wider">${s.c} Credits</div>
-            </div>
-            <select onchange="calc()" class="grade-in bg-[#0b0f1a] border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] font-bold text-white focus:ring-1 focus:ring-indigo-500 outline-none w-20 appearance-none text-center cursor-pointer" data-credits="${s.c}">
-                <option value="">Grade</option>
-                <option value="S">S</option><option value="A">A</option><option value="B">B</option>
-                <option value="C">C</option><option value="D">D</option><option value="E">E</option><option value="F">F</option>
-            </select>
-        `;
-        list.appendChild(row);
+   subjects.forEach(s => {
+    const row = document.createElement('div');
+
+    row.className =
+        'flex items-center justify-between p-4 rounded-xl border ' +
+        'border-slate-200 bg-white hover:bg-slate-50 ' +
+        'dark:border-slate-800/60 dark:bg-slate-800/10 dark:hover:bg-slate-800/30 ' +
+        'transition-all';
+
+    row.innerHTML = `
+        <div class="flex-1 pr-4">
+            <div class="text-xs font-bold text-slate-900 dark:text-slate-200">${s.n}</div>
+            <div class="text-[9px] font-bold text-slate-500 dark:text-slate-600 uppercase mt-0.5 tracking-wider">${s.c} Credits</div>
+        </div>
+
+        <select onchange="calc()"
+            class="grade-in bg-slate-50 dark:bg-[#0b0f1a] border border-slate-300 dark:border-slate-700 rounded-lg px-2 py-1.5 text-[11px] font-bold text-slate-900 dark:text-white focus:ring-1 focus:ring-indigo-500 outline-none w-20 appearance-none text-center cursor-pointer"
+            data-credits="${s.c}">
+            <option value="">Grade</option>
+            <option value="S">S</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+        </select>
+    `;
+
+    list.appendChild(row);
+});
     });
     calc();
 }
