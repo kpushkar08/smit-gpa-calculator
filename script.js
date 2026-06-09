@@ -166,7 +166,7 @@ function loadSubjects() {
 
     list.appendChild(row);
 });
-    });
+    
     calc();
 }
 
