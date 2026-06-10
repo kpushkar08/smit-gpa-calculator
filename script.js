@@ -1,17 +1,4 @@
-const grades = { 'S': 10, 'A': 9, 'B': 8, 'C': 7, 'D': 6, 'E': 5, 'F': 0 };
 
-const firstYear = {
-    physics: [
-        { n: "Engg Mathematics-I", c: 4 }, { n: "Elements of Civil Engg", c: 3 }, { n: "Engg Physics", c: 4 },
-        { n: "Basic Electronics", c: 3 }, { n: "Communication Skills", c: 2 }, { n: "Engg Graphics", c: 2 },
-        { n: "Constitution of India", c: 1 }, { n: "Workshop Practice", c: 1 }, { n: "Engg Physics Lab", c: 1 }
-    ],
-    chemistry: [
-        { n: "Engg Mathematics-I", c: 4 }, { n: "Elements of Mechanical Engg", c: 3 }, { n: "Engg Chemistry", c: 4 },
-        { n: "Elements of Electrical Engg", c: 3 }, { n: "Computer Programming in C", c: 4 }, { n: "Environmental Science", c: 1 },
-        { n: "Computer Programming Lab", c: 1 }, { n: "Engg Chemistry Lab", c: 1 }
-    ]
-};
 
 const branchData = {
     cse: {
