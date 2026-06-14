@@ -17,15 +17,4 @@ This tool allows students to select their engineering branch and semester, autom
 - **Tailwind CSS** (via CDN for styling)
 - **Vanilla JavaScript** (Logic & DOM Manipulation)
 
-## 💻 How to Use
 
-1. Clone this repository or download the files.
-2. Open `index.html` in any modern web browser.
-3. Select your **Branch**.
-4. Select your **Semester** (or Study Cycle if you are in your First Year).
-5. Choose your grades (`S`, `A`, `B`, `C`, `D`, `E`, `F`) from the dropdowns next to each subject.
-6. Your Semester GPA will update automatically at the bottom!
-
-## 🤝 Contributing
-
-Feel free to fork this project, submit pull requests, or open an issue if you notice any curriculum updates or bugs.
