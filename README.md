@@ -29,4 +29,4 @@ This tool allows students to select their engineering branch and semester, autom
 
 ## 🤝 Contributing
 
-Feel free to fork this project, submit pull requests, or open an issue if you notice any curriculum updates or bugs.
+Feel free to fork this project, submit pull requests, or open an issue if you notice any curriculum updates or bugs..
